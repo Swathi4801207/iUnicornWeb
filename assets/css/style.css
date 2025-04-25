@@ -53,7 +53,7 @@
 }
 .btn:hover {
   background-color: #ff3131 !important;
-  color: #000 !important;
+  color: #fff !important;
 }
 
 /* Responsive Adjustments */
@@ -463,7 +463,7 @@
   
   .ceo-title1 {
     font-weight: 700;
-    color: #0d6efd;
+    color: #0a1f44;
   }
   
   .ceo-points li {
@@ -560,7 +560,7 @@
    /* Footer Section Start */
  
   footer {
-    background: linear-gradient(185deg, #1b75be 0%, #5e81bd 100%);
+    background: linear-gradient(185deg, #6db3ec 0%, #0a1f44 100%);
   }
 
   footer h5,
