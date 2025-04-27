@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mobile Innovations</title>
+
+  <!-- Bootstrap 5.3.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../assets/css/tech.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+
+  <style>
+    .hero-section {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/images/mobile_banner.jpg') center/cover no-repeat;
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .service-icon {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 20px;
+    }
+
+    .info-section {
+      padding: 60px 0;
+    }
+
+    .info-box {
+      background: #fff;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+
+    .info-box:hover {
+      transform: translateY(-8px);
+    }
+
+    .view-more-btn {
+      background: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 25px;
+      font-size: 18px;
+      border-radius: 30px;
+      transition: background-color 0.3s;
+    }
+
+    .view-more-btn:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white shadow-lg fixed-top px-3">
+        <div class="container-fluid">
+          <!-- Left: Logo -->
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="../assets/images/iUnicorn_final_logo.svg" alt="iUnicorn Logo" height="60">
+          </a>
+      
+          <!-- Toggler (Right aligned) -->
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <!-- Navbar Content -->
+          <div class="collapse navbar-collapse" id="mainNavbar">
+            <div class="d-lg-flex justify-content-between align-items-center w-100">
+              
+              <!-- Center: Nav Links -->
+              <ul class="navbar-nav mx-lg-auto my-3 my-lg-0 gap-lg-3 text-center text-lg-start">
+                <li class="nav-item"><a class="nav-link" href="../about.html"><i class="fas fa-info-circle me-2"></i>About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#why-choose"><i class="fas fa-star me-2"></i>Why Choose</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services"><i class="fas fa-cogs me-2"></i>Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio"><i class="fas fa-image me-2"></i>Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#industry"><i class="fas fa-industry me-2"></i>Industry</a></li>
+                <li class="nav-item"><a class="nav-link" href="#tech-stack"><i class="fas fa-layer-group me-2"></i>Tech Stack</a></li>
+                <li class="nav-item"><a class="nav-link" href="#process"><i class="fas fa-sync-alt me-2"></i>Process</a></li>
+                <li class="nav-item"><a class="nav-link" href="#team"><i class="fas fa-users me-2"></i>Team</a></li>
+              </ul>
+      
+              <!-- Right: Contact Us Button (Hidden on small screens) -->
+              <a class="btn text-white d-none d-lg-inline-block" href="#contact">
+                <i class="fa-solid fa-phone me-1"></i>Contact Us
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Mobile Innovations</h1>
+      <p class="lead">Secure, high-performing Android & iOS apps from concept to deployment.</p>
+    </div>
+  </section>
+
+  <!-- Service Details Section -->
+  <section class="info-section">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-6">
+          <div class="info-box text-center">
+            <img src="../assets/images/mobile_innovation.avif" alt="Mobile Innovations" class="img-fluid service-icon">
+            <h3 class="fw-bold mt-3">Leading Mobile App Development</h3>
+            <p class="text-muted mt-3">
+              We design and build powerful Android and iOS mobile applications that offer exceptional user experiences. 
+              From ideation to launch, our team ensures a smooth and efficient process using cutting-edge technologies.
+            </p>
+            <ul class="list-unstyled mt-4 text-start">
+              <li>✔️ Native Android & iOS App Development</li>
+              <li>✔️ Cross-Platform App Solutions (Flutter, React Native)</li>
+              <li>✔️ Secure & Scalable Backends</li>
+              <li>✔️ UI/UX Focused Designs</li>
+              <li>✔️ End-to-End App Deployment Support</li>
+            </ul>
+
+           
+
+          </div>
+        </div>
+
+        <div class="col-lg-6 text-center">
+          <img src="../assets/images/mobile_hand.jpg" alt="Mobile App Showcase" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+<footer class="text-white py-5">
+    <div class="container">
+      <div class="row d-flex align-items-stretch">
+      
+        <!-- Column 1: Logo & About -->
+        <div class="col-md-3 mb-4 d-flex flex-column">
+          <img src="../assets/images/iunicorn_final_logo.png" alt="Logo" width="220px" class="mb-3">
+          <p class="small mb-3">
+            We deliver creative, scalable, and secure digital solutions tailored to your business needs.Our team of experts is committed to providing high-quality services that help you grow and succeed in the digital age.
+          </p>
+          
+        </div>
+      
+        <!-- Column 2: Services -->
+        <div class="col-md-3 mb-4 d-flex flex-column">
+          <h5 class="fw-bold mb-3">Our Services</h5>
+          <ul class="list-unstyled small mb-3">
+            <li><a href="#services" class="text-white text-decoration-none">Mobile App Development</a></li>
+            <li><a href="#services" class="text-white text-decoration-none">Web Design & Development</a></li>
+            <li><a href="#services" class="text-white text-decoration-none">UI/UX Design</a></li>
+            <li><a href="#services" class="text-white text-decoration-none">Cloud & DevOps</a></li>
+            <li><a href="#services" class="text-white text-decoration-none">Digital Marketing</a></li>
+            <li><a href="#services" class="text-white text-decoration-none">AI & ML Solutions</a></li>
+          </ul>
+        </div>
+      
+        <!-- Column 3: Quick Links -->
+        <div class="col-md-3 mb-4 d-flex flex-column">
+          <h5 class="fw-bold mb-3">Quick Links</h5>
+          <ul class="list-unstyled small mb-3">
+            <li><a href="#about" class="text-white text-decoration-none">About Company</a></li>
+            <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+            <li><a href="privacy-policy.html" class="text-white text-decoration-none">Privacy Policy</a></li>
+            <li><a href="terms.html" class="text-white text-decoration-none">Terms & Conditions</a></li>
+            <li><a href="refund.html" class="text-white text-decoration-none">Cancellation & Refund</a></li>
+          </ul>
+        </div>
+      
+        <!-- Column 4: Social & Follow Us -->
+        <div class="col-md-3 mb-4 d-flex flex-column">
+          <h5 class="fw-bold mb-3">Follow Us</h5>
+          <ul class="list-unstyled small mb-3">
+            <li><a href="https://www.linkedin.com/company/iunicorn-solutions/" target="_blank" class="text-white text-decoration-none"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/iunicornsolutions/" target="_blank" class="text-white text-decoration-none"><i class="bi bi-instagram"></i> Instagram</a></li>
+            <li><a href="https://twitter.com/iUnicornSo29933" target="_blank" class="text-white text-decoration-none"><i class="bi bi-twitter"></i> Twitter</a></li>
+            <li><a href="https://www.facebook.com/people/IUnicorn-Solutions/61557643224891/" target="_blank" class="text-white text-decoration-none"><i class="bi bi-facebook"></i> Facebook</a></li>
+            <li><a href="https://wa.me/9063516497" target="_blank" class="text-white text-decoration-none"><i class="bi bi-whatsapp"></i> WhatsApp</a></li>
+          </ul>
+        </div>
+      
+      </div>
+      
+      <!-- Address Section in Cards -->
+      <div class="row mt-4">
+        <!-- Corporate Address Card -->
+        <div class="col-md-2"></div>
+        <div class="col-md-4 mb-3">
+          <div class="card bg-light text-white h-100">
+            <div class="card-body">
+              <h6 class="fw-bold text-danger">Corporate Address</h6>
+              <p class="small mb-2 text-dark">4TH FLOOR, MIG 55, 15TH PHASE, Kukatpally Housing Board Colony, Kukatpally, Hyderabad, Telangana 500072</p>
+              <div class="card bg-white text-dark p-2 small d-flex align-items-center flex-row">
+                <i class="bi bi-telephone me-2 fs-6 text-danger"></i>
+                <span>+91  9063516497</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Registered Address Card -->
+        <div class="col-md-4 mb-3">
+          <div class="card bg-light text-dark h-100">
+            <div class="card-body">
+              <h6 class="fw-bold text-danger">Registered Address</h6>
+              <p class="small mb-2 text-dark">450/2, Opposite HP Petrol Pump, Jangareddygudem, West Godavari District, Eluru, 534447</p>
+              <div class="card bg-white text-dark p-2 small d-flex align-items-center flex-row">
+                <i class="bi bi-envelope me-2 fs-6 text-danger"></i>
+                <span>hr@iunicornsolution.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      
+      <hr class="border-light mt-4">
+      <div class="text-center small">
+        &copy; 2024 IUNICORN SOLUTIONS PRIVATE LIMITED. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

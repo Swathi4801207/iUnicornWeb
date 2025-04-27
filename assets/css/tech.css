@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: #0d6efd; /* Bootstrap primary */
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .navbar-brand img {
+    height: 55px;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    color: #333 !important;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #0d6efd !important;
+  }
+  
+  .navbar .btn {
+    background-color: #0d6efd;
+    padding: 8px 20px;
+    border-radius: 30px;
+  }
+  
+  /* Header Section */
+  header {
+    background: linear-gradient(to right, #0d6efd, #0a58ca);
+    color: white;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  /* Banner Image */
+  .banner-image img {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+  }
+  
+  /* Content Section */
+  .content-section {
+    background: #fff;
+  }
+  
+  .content-section h2, 
+  .content-section h3 {
+    color: #0d6efd;
+  }
+  
+  .list-unstyled li {
+    font-size: 1rem;
+  }
+  
+  /* Sidebar Card */
+  .card {
+    border: none;
+    background: #f0f4f8;
+    border-radius: 10px;
+  }
+  
+  .card h5 {
+    color: #0d6efd;
+  }
+  
+  .card .btn {
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+  }
+  
+  .card .btn:hover {
+    background-color: #0a58ca;
+  }
+  
+  /* Contact CTA Section */
+  .contact-cta {
+    background-color: #eef2f7;
+  }
+  
+  .contact-cta h2 {
+    color: #0d6efd;
+  }
+  
+  .contact-cta .btn {
+    background-color: #0d6efd;
+    padding: 12px 30px;
+    border-radius: 30px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #0d6efd;
+  }
+  
+  footer h5 {
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer ul li a {
+    color: #f8f9fa;
+    transition: color 0.3s;
+  }
+  
+  footer ul li a:hover {
+    color: #ffc107;
+    text-decoration: underline;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+    color: #dcdcdc;
+  }
+  
+  footer img {
+    width: 180px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    .banner-image img {
+      height: 250px;
+    }
+  
+    .navbar .btn {
+      display: none;
+    }
+  }
+  
+  
